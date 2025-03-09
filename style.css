@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+hr {
+    border: 1px solid white; /* Definisce il colore e lo spessore */
+    margin: auto; /* Centra il divider */
+    opacity: 0.7; /* Regola l'opacità se necessario */
+}
+
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    max-width: 80%;
+}
+
+#contentSun, #contentLuna {
+    display: flex;
+    flex-direction: column;  /* Titolo sopra, contenuti sotto */
+    align-items: center;
+    width: 100%;
+}
+
+#containerTitleSun, #containerTitleLuna {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contentBody {
+    display: flex;
+    flex-direction: row;  /* Immagine a sinistra, testo a destra */
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 100%;
+}
+
+
+#pSole, #pLuna {
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 50%;
+    text-align: left;
+}
