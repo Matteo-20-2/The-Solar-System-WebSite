@@ -63,14 +63,8 @@ hr {
         text-align: center;
     }
 
-    .text {
-        width: 100%;
-        order: 2;  /* Testo sotto */
+    #pSole, #pLuna {
+        max-width: 100%;  /* Testo più largo */
     }
-
-    .image {
-        width: 90%; /* Per evitare che occupi tutto lo schermo */
-        order: 1;  /* Immagine sopra */
-    }
+    
 }
-
