@@ -65,6 +65,34 @@ hr {
 
     #pSole, #pLuna {
         max-width: 100%;  /* Testo più largo */
+
     }
     
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        max-width: 90%;  /* Contenuto più largo */
+    }
+    
+    #pSole, #pLuna {
+        padding: 5px;  /* Testo più stretto */
+    }
+    
+    #contentSun, #contentLuna {
+        gap: 20px;  /* Spazio tra i contenuti ridotto */
+    }
+    
+    #containerTitleSun, #containerTitleLuna {
+        font-size: 1.5em;  /* Titolo più piccolo */
+    }
+    
+    hr {
+        width: 90%;  /* Divider più stretto */
+    }
+    
+    #sun {
+        width: 90%;  /* Immagini più piccole */
+        height: auto;
+    }
 }
