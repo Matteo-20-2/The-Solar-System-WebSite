@@ -55,3 +55,22 @@ hr {
     max-width: 50%;
     text-align: left;
 }
+
+/* 📌 MEDIA QUERY: Cambia layout solo su schermi piccoli (smartphone e tablet verticali) */
+@media screen and (max-width: 1260px) {
+    .contentBody {
+        flex-direction: column;  /* Disposizione verticale solo su schermi piccoli */
+        text-align: center;
+    }
+
+    .text {
+        width: 100%;
+        order: 2;  /* Testo sotto */
+    }
+
+    .image {
+        width: 90%; /* Per evitare che occupi tutto lo schermo */
+        order: 1;  /* Immagine sopra */
+    }
+}
+
